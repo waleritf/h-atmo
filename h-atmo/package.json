@@ -1,0 +1,22 @@
+{
+  "name": "h-atmo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "forestart": "sudo $(which node) node_modules/forever/bin/forever start server.js",
+    "forestop": "sudo $(which node) node_modules/forever/bin/forever stop server.js",
+    "foredatastart": "sudo $(which node) node_modules/forever/bin/forever start store_atmo_data.js",
+    "foredatastop": "sudo $(which node) node_modules/forever/bin/forever stop store_atmo_data.js",
+    "start": "sudo $(which node) server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "forever": "^2.0.0",
+    "node-dht-sensor": "^0.4.1",
+    "pg": "^8.0.2"
+  }
+}
