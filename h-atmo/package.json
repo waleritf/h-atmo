@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "forever": "^2.0.0",
     "node-dht-sensor": "^0.4.1",
     "pg": "^8.0.2"
